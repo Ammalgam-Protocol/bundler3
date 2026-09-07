@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-pragma solidity 0.8.28;
+pragma solidity >=0.8.28;
 
 import {IAaveV3Optimizer} from "../../interfaces/IAaveV3Optimizer.sol";
 import {CoreAdapter, ErrorsLib, IERC20, SafeERC20} from "../CoreAdapter.sol";
